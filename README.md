@@ -1,4 +1,4 @@
-__loosey_goosey__  
+# loosey_goosey  
 Choose your favourite. (poll)
 
 ## 各フォルダの役割
