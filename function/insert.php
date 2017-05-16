@@ -20,8 +20,10 @@
 
 
     <!-- 得票数による処理 -->
-    <?php if($get_result_left > $get_result_right || $get_result_left < $get_result_right) : ?>
+    <?php if($get_result_left > $get_result_right) : ?>
         <?php include 'result.php' ; ?>
+    <?php elseif ($get_result_left < $get_result_right) : ?>
+        <?php include 'result_lose.php' ; ?>
     <?php elseif($get_result_left == $get_result_right) : ?>
         <?php include 'result_draw.php' ; ?>
     <?php endif; ?>

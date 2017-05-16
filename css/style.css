@@ -103,4 +103,12 @@
 }
 
 
-/*結果(数字のカウンター部分)*/
+/*結果(勝ち負けのイラスト部分)*/
+div.result_images .fa.fa-heart {
+    font-size: 330px;
+}
+div.result_images .fa.fa-thumbs-down {
+    font-size: 330px;
+}
+
+/*結果(数字カウンター部分)*/
