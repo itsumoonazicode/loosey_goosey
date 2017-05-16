@@ -1,8 +1,8 @@
 <?php include 'header.php' ; ?>
         <div id="result_content">
             <div class="result_images">
-                <i class="fa fa-heart" aria-hidden="true"></i>
-                <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                <img class="images_win" src="http://localhost/public_html/loosey-goosey/images/きのこ_勝利.jpg" alt='勝った方'>
+                <img class="images_lose" src="http://localhost/public_html/loosey-goosey/images/たけのこ_敗北.jpg" alt='負けた方'>
             </div>
             <div class="result_count">
                 <?php require_once 'insert.php' ; ?>

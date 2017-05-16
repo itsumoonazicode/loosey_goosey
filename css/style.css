@@ -103,12 +103,34 @@
 }
 
 
-/*結果(勝ち負けのイラスト部分)*/
-div.result_images .fa.fa-heart {
-    font-size: 330px;
+/*結果(全体デザイン)*/
+#result_content {
+
 }
-div.result_images .fa.fa-thumbs-down {
-    font-size: 330px;
+/*結果(勝ち負けのイラスト部分)*/
+.result_images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.result_images .images_win {
+    width: 500px;
+    height: 500px;
+}
+div.result_images .images_lose {
+    width: 250px;
+    height: 250px;
 }
 
 /*結果(数字カウンター部分)*/
+.result_count {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.result_count h1 {
+    font-size: 120px;
+}
+.result_count p {
+    font-size: 100px;
+}
